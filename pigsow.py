@@ -13,7 +13,7 @@ daysCount = (d3 - d1).days
 print('\n')
 print('=' * 50)
 print('|' + ' ' * 48 + '|')
-print(f'|    pig and sow are being in love {daysCount:=5}  days.   |')
+print(f'|   pig and sow are being in love {daysCount:=5}  days.   |')
 print('|' + ' ' * 48 + '|')
 print('=' * 50)
 print(' ' * 31 + 'v0.1  by little sow')
