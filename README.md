@@ -13,6 +13,18 @@ source ~/.bashrc
 pigsow
 ```
 
+```bash
+echo 'alias pigslove="python3 ~/.pigsow/pigslove.py"' >> .bashrc
+source ~/.bashrc
+
+pigslove
+pigslove -d 20191231
+pigslove -d 20191231 -f exp -c 20201231
+pigslove -d 20191231 -f log -c 20201231
+
+pigslove --help
+```
+
 ## Authors
 
 - **Ning Sun**
